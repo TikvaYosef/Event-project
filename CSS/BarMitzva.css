@@ -8,8 +8,7 @@ body{
     background:linear-gradient(rgba(150, 187, 223, 0.459), rgb(243, 165, 253));
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 98.5vw; */
-    /* height: 100vh; */
+    
 }  
 
 #logo{
@@ -31,8 +30,6 @@ ul{
     display: flex;
     justify-content:space-evenly;
     color: aliceblue;
-    /* background-color: black; */
-    /* filter: opacity(0.8); */
     padding-bottom: 10px; 
     width: 98.5vw;
         
@@ -158,7 +155,6 @@ footer a img{
      }
     .form{
         width: 70vw;
-       /* margin-right: 200px; */
        margin-left: 75px;
     }
     
