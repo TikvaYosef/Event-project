@@ -105,8 +105,8 @@ nav a:hover{
 #span{
     font-weight: bold;
     font-size: 40px;
-    text-shadow: 4px 4px gray;
 }
+
 #paragraph{
     width: 97%;
     height: 80%;
@@ -115,26 +115,23 @@ nav a:hover{
     justify-content: space-evenly;
     margin-top: 10%;
     margin-left: 3%;
-    /* background-color: black; */
+    
     
 }
 #paragraph article img{
     width: 90%;
     height: 80%;
     border-radius: 5px;
-    /* position: relative; */
-    /* z-index: -100; */
+   
     
 }
 #paragraph article {
     width:97%;
     height:80%;
-    
-   
-    
+       
 }
 #paragraph article p {
-    /* padding-bottom: 100px; */
+
     font-weight: bolder;
     font-size: 20px;
        
@@ -143,10 +140,10 @@ nav a:hover{
     font-weight: bold;
     font-size: 70px;
     color: black;
-    text-shadow: 4px 4px gray;
+   
 }
 hr{
-    display: block;
+  display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   width: 98vw;
@@ -164,20 +161,15 @@ hr{
 
 #BarMizvaPic img{
     border-radius: 10px;
-    width:20%;  
+    width:20%; 
+    filter: drop-shadow(5px 9px 4px black ); 
 }
-#BarMizvaPic img:hover{
-    width: 25%;
-    transition-duration: 1s ;
 
-    filter: drop-shadow(5px 9px 4px black );
-}
 
 #barM a {
     text-decoration-line: none;
     color: black;
     font-size: 40px;
-    text-shadow: 4px 4px grey;
     direction: rtl;
 }
 
@@ -188,7 +180,6 @@ hr{
     text-decoration-line: none;
     color: black;
     font-size: 40px;
-    text-shadow: 4px 4px grey;
     direction: rtl;
 
 }
@@ -207,20 +198,14 @@ hr{
 #weddingsPic img{
     border-radius: 10px;
     width:20%;  
-}
-#weddingsPic img:hover{
-    width: 25%;
-    transition-duration: 1s;
     filter: drop-shadow(5px 9px 4px black);
 }
+
 form{
     width: 98vw;
-    
-    background-color: palevioletred;
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
-    border: black solid;
 
 }
 
@@ -238,6 +223,11 @@ footer a img{
     margin-right: 100px;
     border-radius: 200px;
 }
+/* @media only screen and (max-device-width:425px){
+    body{
+        
+    }
+} */
 
 
 
