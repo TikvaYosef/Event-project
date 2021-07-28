@@ -8,6 +8,8 @@ body{
     width: 97vw;
     height: 100vh;
     background:linear-gradient( rgb(252, 213, 221), rgb(207, 193, 193));
+    background-repeat: no-repeat;
+    background-size: cover;
     
     
     
@@ -93,7 +95,7 @@ nav a:hover{
  
 }
 #welcome h1{
-     text-align: center; 
+    text-align: center; 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 5%;
     text-shadow: 4px 4px palevioletred;
@@ -166,8 +168,9 @@ hr{
 }
 #BarMizvaPic img:hover{
     width: 25%;
-    transition-duration: 1s;
-    filter: drop-shadow(5px 9px 4px black  );
+    transition-duration: 1s ;
+
+    filter: drop-shadow(5px 9px 4px black );
 }
 
 #barM a {
@@ -211,24 +214,29 @@ hr{
     filter: drop-shadow(5px 9px 4px black);
 }
 form{
+    width: 98vw;
     
+    background-color: palevioletred;
     text-align: center;
-    color: black;
-    margin-top: 50px;
-    margin-bottom: 100px; 
-  
-    
-}
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: black solid;
 
-form div{
-    font-size: 50px;
-    background-color: indianred;
 }
 
 footer{
-    
-    background-color: purple;
-
+    direction: rtl;
+    background:linear-gradient(rgba(19, 4, 19, 0.459), rgb(101, 41, 241));
+    color:black;
+    width: 98.5vw;
+}
+footer a img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 200px;
 }
 
 
